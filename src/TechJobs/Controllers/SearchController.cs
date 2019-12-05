@@ -19,7 +19,7 @@ namespace TechJobs.Controllers
         // Display the search form
         public IActionResult Index()
         {
-            SearchJobsViewModel jobsViewModel = new SearchJobsViewModel();
+            BaseViewModel jobsViewModel = new BaseViewModel();
             jobsViewModel.Title = "Search";
             return View(jobsViewModel);
         }
