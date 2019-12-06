@@ -14,9 +14,9 @@ namespace TechJobs.ViewModels
         // All columns, for display
         public List<JobFieldType> Columns { get; set; }
 
-        /*public BaseViewModel()
+        public BaseViewModel()
         {
-            // Populate the list of all columns
+            //Populate the list of all columns
 
             Columns = new List<JobFieldType>();
 
@@ -24,6 +24,6 @@ namespace TechJobs.ViewModels
             {
                 Columns.Add(enumVal);
             }
-        }*/
+        }
     }
 }
